@@ -6,7 +6,7 @@ Pruebas con karma, travis, mas webworker.
 
 ## Enlace al conversor ##
 
-[10.6.128.88/index.html](10.6.128.88/index.html)
+[10.6.128.88:8080/index.html](10.6.128.88:8080/index.html)
 
 
 ## Enlace a mi pagina de la asignatura SYTW ##
