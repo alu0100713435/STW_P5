@@ -6,7 +6,7 @@ Pruebas con karma, travis, mas webworker.
 
 ## Enlace al conversor ##
 
-[Conversor en iaas](10.6.128.88:8080/index.html)
+[Conversor en iaas](http://10.6.128.88:8080/index.html)
 
 
 ## Enlace a mi pagina de la asignatura SYTW ##
