@@ -11,44 +11,38 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/alu0100713435/STW_P4.git"
+    "url": "git+https://github.com/alu0100713435/STW_P5.git"
   },
   "keywords": [
     "regexp"
   ],
-  "author": "Javier Pestano Ron",
+  "author": "Noel Padron Diaz",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/alu0100713435/STW_P4/issues"
+    "url": "https://github.com/alu0100713435/STW_P5/issues"
   },
-  "homepage": "https://github.com/alu0100713435/STW_P4#readme",
+  "homepage": "https://github.com/alu0100713435/STW_P5#readme",
+  "dependencies": {},
   "devDependencies": {
-    "batch": "^0.5.3",
     "chai": "*",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
     "gulp-minify-css": "^1.2.1",
     "gulp-minify-html": "^1.0.4",
-    "gulp-uglify": "^1.4.2",
+    "gulp-mocha": "*",
+    "gulp-uglify": "^1.4.1",
     "gulp-util": "^3.0.6",
-    "karma": "^0.13.14",
+    "karma": "~0.12",
     "karma-chrome-launcher": "*",
     "karma-firefox-launcher": "*",
-    "karma-html2js-preprocessor": "^0.1.0",
-    "karma-ie-launcher": "^0.2.0",
+    "karma-html2js-preprocessor": "*",
     "karma-mocha": "^0.2.0",
-    "karma-opera-launcher": "^0.3.0",
-    "karma-phantomjs-launcher": "*",
-    "karma-safari-launcher": "^0.1.1",
-    "mocha": "^2.3.3",
-    "python": "0.0.4"
+    "mocha": "*",
+    "karma-chai": "*",
     "node-static": "~0.7.6",
     "bower": "*",
     "express": "*",
     "path": "*"
-  },
-  "dependencies": {
-    "node-static": "^0.7.7"
   }
 }
