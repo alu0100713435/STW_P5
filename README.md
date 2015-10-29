@@ -22,7 +22,7 @@ http://alu0100713435.github.io/
 
 Lo primero es entrar en la pagina de [iaas.ull.es](iass.ull.es) y logearte con tu alu y contraseña. Luego podras acceder a tu zona donde dispones de una maquina virtual en el servidor.
 
-![github1](Images/Captura de pantalla 2015-10-28 17.22.35.png "titulo")
+![github1](Images/iaas.png "titulo")
 
 La arrancas y en la parte derecha de la pantalla vas a modificar, y cambias la opcion de "Cliente Nativo" a "noVNC". Luego haces doble click en la maquina y puedes usar la consola.
 
