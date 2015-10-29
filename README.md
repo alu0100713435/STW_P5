@@ -26,20 +26,16 @@ Lo primero es entrar en la pagina de [iaas.ull.es](iass.ull.es) y logearte con t
 
 La arrancas y en la parte derecha de la pantalla vas a modificar, y cambias la opcion de "Cliente Nativo" a "noVNC". Luego haces doble click en la maquina y puedes usar la consola.
 
-img
+![iaas2](Imagenes/iaas2.png "titulo")
 
 
-Lo primero que hay que hacer es introducir el usuario y la contraseña, que apra ambos casos es "usuario", y luego te pide cambiar la contraseña. Lo hacemos y asi tenemos nuestra terminal configurada.
-
-img
-
-Luego hacemos 
+Lo primero que hay que hacer es introducir el usuario y la contraseña, que apra ambos casos es "usuario", y luego te pide cambiar la contraseña. Lo hacemos y asi tenemos nuestra terminal configurada. Luego hacemos 
 
 > ifconfig
 
 Para obtener nuestra ip que nos hara falta en el futuro.
 
-img
+![ip](Imagenes/ip.png "titulo")
 
 Mas tarde hacemos 
 
@@ -47,25 +43,18 @@ Mas tarde hacemos
 
 Para poder instalar mas adelantes las dependencias de nuestra practica. 
 
-img
-
 A partir de aqui dejaremos la terminal en el navegador de lado y usaremos uno de los servicios que nos da el centro de calculo que es "SSH Secure Shell Client". 
 
-img
+![ssh](Imagenes/ssh.png "titulo")
 
 Tenemos que obtener una clave para poder clonar nuestro repositorio de Github en el servidor, lo hacemos con el comando 
 
 > ssh-keygen -t rsa
 
- 
-
-img
-
 Una vez echo esto, clonamos nuestro repositorio en el servidor. Entramos y hacemos un npm que instale todas las dependencias. Con esto estamos listos para arrancar nuestra pagina en el servidor. Con el comando 
 
 > nodejs static-server.js
 
- 
 
 Y listo, con esto tenemos nuestra aplicacion web corriendo en el servicio [iaas.ull.es](iass.ull.es) .
 
