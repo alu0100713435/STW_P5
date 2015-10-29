@@ -1,6 +1,6 @@
 var expect = chai.expect;
 
-describe("Test Conversor", function() {
+describe("Conversor", function() {
 
   var converted = document.getElementById("converted");
 
