@@ -1,16 +1,25 @@
 var expect = chai.expect;
 
 describe("Conversor", function() {
+  
+  beforeEach(function() {
 
-  var converted = document.getElementById("converted");
+    var converted = document.getElementById("converted");
+    var t;
+  
+  });
+  
+  afterEach(function() {
+    
+  });
 
     it("Primera: 32F", function() {
-      var t = new Temperatura(32,"F");
+      t = new Temperatura(32,"F");
       expect(t.far()).to.equal("0.0 Celsius");
     });
 
     it("Segunda: -6C", function() {
-      var t = new Temperatura(-6,"C");
+      t = new Temperatura(-6,"C");
       expect(t.celsius()).to.equal("21.2 Farenheit");
     });
 
